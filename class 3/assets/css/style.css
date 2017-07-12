@@ -1,0 +1,104 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus {
+    outline: 0 solid;
+}
+img {
+    height: auto;
+    max-width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    margin: 0 0 15px;
+}
+body {
+    font-family: "Lato",sans-serif;
+}
+a:hover {
+    text-decoration: none;
+}
+.video-area-bg { 
+    background-image: url("../img/video-bg.jpg");
+    background-color: #ddd;
+    background-position: center ;
+    background-size: cover;
+}
+.check-icon li::before {
+    content: "";
+    font-family: fontAwesome;
+}
+
+video-area {
+    position: relative;
+}
+.video-area-bg {
+    box-shadow: 0 0 20px #987;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 44%;
+}
+.video-play-btn {
+    background: #13a554 none repeat scroll 0 0;
+    border-radius: 50%;
+    color: #fff;
+    display: inline-block;
+    font-size: 40px;
+    height: 100px;
+    line-height: 97px;
+    margin-right: -50px;
+    margin-top: -50px;
+    padding-left: 10px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    width: 100px;
+}
+.video-play-btn:hover {
+    background: #7dfbb6 none repeat scroll 0 0;
+    color: #fff;
+}
+body {
+    color: #a7a7a7;
+}
+h3 {
+    color: #333;
+}
+p {
+    padding: 15px 0;
+}
+ul.check-icon {
+    color: #666;
+    font-size: 17px;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+}
+.check-icon li {
+    padding-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+.check-icon li::before {
+    color: #8aca88;
+    left: 0;
+    position: absolute;
+    top: 1px;
+}
+.video-area {
+    padding: 80px 0;
+    position: relative;
+}
