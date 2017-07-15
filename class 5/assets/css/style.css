@@ -1,0 +1,94 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-bg-1::after {
+    background-image: url("../img/office.jpg");
+}
+section.section-bg-1 {
+    position: relative;
+}
+.section-padding {
+    position: relative;
+}
+.section-bg {
+    background: rgba(0, 0, 0, 0) url("../img/office.jpg") repeat scroll center center / cover ;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 45%;
+}
+.panel-bg-remove {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    box-shadow: none;
+}
+.panel-bg-remove > h4.panel.title {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+}
+.panel-bg-remove > h4.panel-title > a > i.fa {
+    display: none;
+    float: right;
+}
+.panel-bg-remove h4 a {
+    display: block;
+    text-decoration: none;
+}
+.panel-bg-remove h4 a[aria-expanded="true"] i.fa.fa-angle-up {
+    display: block;
+}
+.panel-bg-remove h4 a[aria-expanded="false"] i.fa.fa-angle-down {
+    display: block;
+}
+.panel-border-remove {
+    border-radius: 0;
+}
+.blue {
+    color: #28aae1;
+}
+.panel {
+    margin-bottom: 30px;
+}
+.body-border-remove {
+    border-top: 0 none;
+}
+.collapse-container .panel-group .panel {
+    margin-bottom: 20px;
+}
+.section-title {
+    padding-top: 60px;
+}
+.title-description {
+    margin-bottom: 30px;
+}
+.collapse-container {
+    min-height: 300px;
+}
