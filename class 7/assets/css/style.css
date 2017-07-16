@@ -1,0 +1,107 @@
+/* Base CSS */
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:focus { outline: 0 solid }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+a:hover { text-decoration: none }
+.section-padding {
+    padding: 80px 0;
+}
+.section-title {
+    margin-bottom: 60px;
+}
+.section-title h3 {
+    font-size: 22px;
+    font-weight: 900;
+    margin-bottom: 30px;
+    position: relative;
+}
+.section-title h3::after {
+    background: #13acf3 none repeat scroll 0 0;
+    border-radius: 5px 0 0 5px;
+    bottom: -15px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 50px;
+}
+.section-title h3::before {
+    background: #ebebeb none repeat scroll 0 0;
+    border-radius: 0 5px 5px 0;
+    bottom: -15px;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    width: 60px;
+}
+.owl-carousel .owl-item .single-staff img {
+    border-radius: 50%;
+    max-width: 160px;
+}
+.staff-details {
+    margin: 30px 0 20px;
+    text-align: left;
+}
+.staff-details h4 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.staff-details p {
+    color: #7e7e7e;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.staff-list .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
+.staff-list .owl-nav div {
+    background: #f3f3f3 none repeat scroll 0 0;
+    color: #6e6e6e;
+    display: inline-block;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    text-align: center;
+    transition: all 0.4s ease 0s;
+    width: 50px;
+}
+.staff-list .owl-nav .owl-next:hover {
+    background: #13acf3 none repeat scroll 0 0;
+    color: #fff;
+    padding-left: 7px;
+}
+.staff-list .owl-nav .owl-prev:hover {
+    background: #13acf3 none repeat scroll 0 0;
+    color: #fff;
+    padding-right: 7px;
+}
