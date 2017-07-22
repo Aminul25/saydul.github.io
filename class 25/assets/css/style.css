@@ -29,3 +29,93 @@ body {
 
 }
 a:hover { text-decoration: none }
+
+.section-padding {
+    padding: 50px 0;
+}
+.section-title {
+    margin-bottom: 75px;
+}
+.section-title h2 {
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.section-title span {
+    background: #68ad07 none repeat scroll 0 0;
+    border-radius: 3px;
+    display: inline-block;
+    height: 3px;
+    margin: 2px;
+    width: 30px;
+}
+.section-title span.black-border {
+    background: #000 none repeat scroll 0 0;
+    width: 20px;
+}
+.single-choose-item {
+    color: #9599ba;
+    margin-bottom: 15px;
+}
+.choose-left-bg {
+    background-color: #ddd;
+    background-position: center center;
+    background-size: cover;
+    height: 110px;
+    position: relative;
+}
+.choose-left-bg-1 {
+    background-image: url("http://lorempixel.com/400/200/nature");
+}
+.choose-left-bg-2 {
+    background-image: url("http://lorempixel.com/400/200/transport");
+}
+.choose-left-bg-3 {
+    background-image: url("http://lorempixel.com/400/200/sports");
+}
+.choose-left-bg::before {
+    background: #68ad07 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 6px;
+    position: absolute;
+    top: 6px;
+    width: 100%;
+    z-index: -1;
+}
+.single-choose-item h3 {
+    border-bottom: 1px dashed #68ad07;
+    color: #000;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+.choose-right {
+    background-color: #ddd;
+    background-image: url("http://lorempixel.com/400/200/cats");
+    background-position: center center;
+    background-size: cover;
+    height: 390px;
+    margin-left: 30px;
+    position: relative;
+}
+.choose-right::before {
+    background: #68ad07 url("images/always-grey.png.pagespeed.ce.iQ4wt5VEwR.png") repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 100%;
+    z-index: -1;
+}
+.choose-right::after {
+    background: #000 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
